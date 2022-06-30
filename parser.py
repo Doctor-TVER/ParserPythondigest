@@ -32,5 +32,5 @@ result = dict(zip(names,titles))
 
 pprint.pprint(result)
 
-with open("result.json", "w", encoding='utf-8') as parser_file:
+with open("result.json", "w") as parser_file:
     json.dump(result, parser_file)
