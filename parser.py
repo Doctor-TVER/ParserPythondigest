@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pprint
 import json
 
+
 domain = 'https://pythonworld.ru'
 url = f'{domain}/bookshop'
 
